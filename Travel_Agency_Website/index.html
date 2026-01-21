@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajib Travel Agency</title>
+</head>
+<body>
+    <header>
+        <img src="images\logo.png" alt= "Rajib Travel Agency logo">
+
+        <h1>Rajib Travel Agency</h1>
+        <p>Ghumo shaukh se</p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="package.html">Packages</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section>
+        <img src= "images\img1.jpg" alt= "Beautiful travel destination">
+        <p>
+            Explore amazing destinations with Rajib Travel Agency.
+            We help you travel comfortably and confidently.
+       </p>
+        </section>
+        <section>
+        <h2> Popular Destination</h2>
+
+        <img src= "images\img2.jpg" alt="Beach destination">
+        <img src="images\img3.jpg" alt="Mountain destination">
+        <img src="images\img4.jpg" alt="City travel destination">
+        </section>
+
+       <section>
+        <h2>Why Chose Us ?</h2>
+            <uL>
+                <li>Affordable package</li>
+                <li>Trusted travel partners</li>
+                <li>24/7 customer support</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Book Your Trip</h2>
+
+            <form action= "submit.html" method="post">
+                <label for="username ">Your name:</label><br>
+                <input type="text" id="username" name= "username" placeholder="Enter your full name" required>
+                <br><br>
+                    
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" name ="email" placeholder ="Enter your email" required>
+                <br><br>
+
+                <label for="destination">Destination:</label><br>
+                <select id="destination" name="destination" required>
+                <option value="">-- Select Destination --</option>
+                <option value="goa">Goa</option>
+                <option value="bali">Bali</option>
+                <option value="dubai">Dubai</option>
+                </select>
+                <br><br>
+
+                <label for="date">Travel Date:</label><br>
+                <input type="date" id="date" name="travel_date" required>
+                <br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Any special requirement?"></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Rajib Travel Agency</p>
+    </footer>
+</body>
+</html>
